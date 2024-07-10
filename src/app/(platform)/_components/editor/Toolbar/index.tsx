@@ -21,7 +21,7 @@ export const Toolbar = () => {
   });
 
   return (
-    <div className="py-1 h-full"> {/* 工具栏的容器 */}
+    <div className="py-1 h-full"> 
       {active && related.toolbar && React.createElement(related.toolbar)} {/* 如果有活动节点且有相关的工具栏，动态创建工具栏 */}
       {!active && (
         <div

@@ -29,7 +29,7 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <div className="h-full h-screen">
+      <div className="h-full">
         <Editor
           resolver={{
             Container,
